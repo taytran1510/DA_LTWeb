@@ -587,42 +587,7 @@
                 <iframe width="100%" height="562" src="https://www.youtube.com/embed/uPW5eNKplT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;"="" allowfullscreen=""></iframe>
               </li>
               
-              <li>
-                <div class="aa-testimonial-single">
-                <img class="aa-testimonial-img" src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.0-9/109872463_2806011969630772_8343371302362997536_o.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=a784nFCuxXoAX_r7HaF&_nc_ht=scontent.fsgn2-5.fna&oh=117379f85c56d82af31e8ad9cd7896d3&oe=5FDCE3CA" alt="avatar 1">
-                  <span class="fa fa-quote-left aa-testimonial-quote"></span>
-                  <p>Tôi đã mua hàng ở cửa hàng khá nhiều lần rồi, và tôi cảm thấy sản phẩm của cửa hàng 
-                    được giao khá nhanh và sản phẩm thì tốt.</p>
-                  <div class="aa-testimonial-info">
-                    <p>Tay Trần</p>
-                    <span>Sinh viên</span>
-                  </div>
-                </div>
-              </li>
-              <!-- single slide -->
-              <li>
-                <div class="aa-testimonial-single">
-                <img class="aa-testimonial-img" src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/112090276_2605169363055485_464688211763811120_o.jpg?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_ohc=koyTsyDvRk0AX_qXSkO&_nc_ht=scontent.fsgn2-4.fna&oh=2589823bcfcd1ed57d0aceddd51e9db2&oe=5FDDF006" alt="avatar 2">
-                  <span class="fa fa-quote-left aa-testimonial-quote"></span>
-                  <p> Về chất lượng của sản phẩm thì khỏi phải bàn. Tôi sẽ mua hàng ở đây thường xuyên<p>
-                  <div class="aa-testimonial-info">
-                    <p>Trà My</p>
-                    <span>Sinh viên</span>
-                  </div>
-                </div>
-              </li>
-               <!-- single slide -->
-              <li>
-                <div class="aa-testimonial-single">
-                <img class="aa-testimonial-img" src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.0-9/62222288_2172979322992046_374288897854668800_n.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_ohc=OX1OSrvRZXYAX9sSrDR&_nc_oc=AQlT402Pie-Q3kSweAIOL1-MnkSmW2WLMibNfk4xrtsBCVkSHhTKDPahUxQSW_fmjK8&_nc_ht=scontent.fsgn2-2.fna&oh=bc612e90d8f0d893ca6954199e6591d9&oe=5FDDF107" alt="avatar 3">
-                  <span class="fa fa-quote-left aa-testimonial-quote"></span>
-                  <p>Không có thời gian ra shop nên tôi thường mua hàng online ở đây. Chất lượng sản phẩm và dịch vụ ở đây rất là tốt!</p>
-                  <div class="aa-testimonial-info">
-                    <p>Uy Long</p>
-                    <span>Sinh viên</span>
-                  </div>
-                </div>
-              </li>
+              
             </ul>
           </div>
         </div>
