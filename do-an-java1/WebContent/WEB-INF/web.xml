@@ -288,4 +288,24 @@
        <servlet-name>addProduct</servlet-name>
        <url-pattern>/admin/product/add</url-pattern>
    </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>submitReview</servlet-name>
+		<servlet-class>shop.controller.ReviewClientController</servlet-class>
+	</servlet>
+  
+	<servlet-mapping>
+		<servlet-name>submitReview</servlet-name>
+		<url-pattern>/view/client/review</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+       <servlet-name>listOrderdetail</servlet-name>
+       <servlet-class>shop.controller.admin.OrderdetailListController</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+       <servlet-name>listOrderdetail</servlet-name>
+       <url-pattern>/admin/order/list-detail</url-pattern>
+   </servlet-mapping>
 </web-app>

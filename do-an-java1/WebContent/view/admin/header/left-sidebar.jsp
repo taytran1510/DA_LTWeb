@@ -38,6 +38,11 @@
         </li>
         
         <li>
+          <a href="${pageContext.request.contextPath}/admin/order/list-detail">
+            <i class="zmdi zmdi-shopping-cart"></i> <span>Chi Tiết Đơn</span>
+          </a>
+        
+        <li>
           <a href="${pageContext.request.contextPath}/admin/review/list">
             <i class="zmdi zmdi-calendar-check"></i> <span>Review</span>
           </a>   
