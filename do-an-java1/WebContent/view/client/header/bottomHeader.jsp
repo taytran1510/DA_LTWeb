@@ -1,9 +1,3 @@
-<%-- 
-    Document   : bottomHeader
-    Created on : May 5, 2020, 11:14:19 PM
-    Author     : LENOVO
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <c:url value = "/view/client/assets" var="url"/>
@@ -51,11 +45,11 @@
                 <a class="aa-cart-link" href="${pageContext.request.contextPath}/view/client/cart">
                   <span class="fas fa-cart-arrow-down"></span>
                   <span class="aa-cart-title"></span>
+                  
                  
                   <c:if test="${length_order != NULL}">
-                  	<span class="aa-cart-notify">${length_order}</span>
+                  	<span class="aa-cart-notify">$</span>
                   </c:if>
-                  
 
                 </a>
                 <div class="aa-cartbox-summary">

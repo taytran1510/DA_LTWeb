@@ -35,7 +35,7 @@
                   <li><a href="product.jsp">PHỤ KIỆN</a></li>
                 </ul>
               </li>
-              <li><a href="${pageContext.request.contextPath}/view/client/news-list">TIN TỨC</a></li>
+              
               <li><a href="${pageContext.request.contextPath}/view/client/security">CHÍNH SÁCH</a></li>
               <li><a href="${pageContext.request.contextPath}/view/client/sizetable">BẢNG SIZE</a></li>
               <li><a href="${pageContext.request.contextPath}/view/client/contact">LIÊN HỆ</a></li>

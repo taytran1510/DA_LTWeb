@@ -47,7 +47,8 @@
                     <tbody>
                       <c:forEach items="${order.items}" var="item">
                       <tr>
-                        <td><a class="remove" href="${pageContext.request.contextPath}/view/client/cart-delete?id=${item.product.id}"><fa class="fa fa-close"></fa></a></td>
+                        <td><a class="remove" href="${pageContext.request.contextPath}/view/client/cart-delete?id=${item.product.id}"><fa class="fa fa-close"></fa></a></td>  
+                                           
                         <td><a href="${pageContext.request.contextPath}/view/client/product-detail?id=${item.product.id}"><img src="${pageContext.request.contextPath}/view/client/assets/images/products/img-test/${item.product.image_link}" alt="img${item.product.name }"></a></td>
                         <td><a class="aa-cart-title" href="${pageContext.request.contextPath}/view/client/product-detail?id=${item.product.id}">${item.product.name }</a></td>
                         <td>${item.product.price} VNĐ</td>

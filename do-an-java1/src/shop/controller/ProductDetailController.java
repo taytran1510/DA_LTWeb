@@ -13,13 +13,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import shop.model.Catalog;
 import shop.model.Product;
-//import nongsan.webmvc.model.Review;
 import shop.service.CategoryService;
 import shop.service.ProductService;
-//import shop.webmvc.service.ReviewService;
 import shop.service.impl.CategoryServicesImpl;
 import shop.service.impl.ProductServiceImpl;
-//import shop.webmvc.service.impl.ReviewServicesImpl;
 
 public class ProductDetailController extends HttpServlet {
 
@@ -29,7 +26,6 @@ public class ProductDetailController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	CategoryService cateService = new CategoryServicesImpl();
 	ProductService productService = new ProductServiceImpl();
-	//ReviewService reviewService = new ReviewServicesImpl();
 	DecimalFormat df = new DecimalFormat("#.000");
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -46,12 +42,10 @@ public class ProductDetailController extends HttpServlet {
 		
 		req.setAttribute("productById", productListCate);
 		
-		//List<Review> reviewById = reviewService.getReviewById(Integer.parseInt(id));
-		//req.setAttribute("reviewbyid", reviewById);
 		
 		List<Product> productList = productService.getAll();
 		req.setAttribute("productlist", productList);	
-		//Giá giảm
+		//Giam gia
 		List<Product> productsList1 = new ArrayList<Product>();
 		for(Product product: productList)
 		{

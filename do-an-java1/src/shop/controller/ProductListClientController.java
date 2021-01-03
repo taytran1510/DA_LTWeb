@@ -33,7 +33,7 @@ public class ProductListClientController extends HttpServlet {
 		req.setAttribute("catelist", cateList);
 		List<Product> productList = productService.getAll();
 		req.setAttribute("productlist", productList);
-		//Giá giảm
+		//giam gia
 		List<Product> productsList1 = new ArrayList<Product>();
 		for(Product product: productList)
 		{
@@ -44,7 +44,7 @@ public class ProductListClientController extends HttpServlet {
 		}
 
 		req.setAttribute("productlist1", productsList1);
-		// Product bán chạy
+		//ban chay
 		List<Product> product_banchay= productService.getProductById(6);
 		req.setAttribute("product_banchay", product_banchay);	
 		

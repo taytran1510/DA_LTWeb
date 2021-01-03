@@ -20,84 +20,10 @@
    <div class="snowflake">❄</div><div class="snowflake">❄</div><div class="snowflake">❄</div>
    <div class="snowflake">❄</div><div class="snowflake">❄</div><div class="snowflake">❄</div>
    <div class="snowflake">❄</div><div class="snowflake">❄</div><div class="snowflake">❄</div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
-   <div class="snowflake">
-  ❄
-  </div>
+   <div class="snowflake">❄</div><div class="snowflake">❄</div><div class="snowflake">❄</div>
+   <div class="snowflake">❄</div><div class="snowflake">❄</div><div class="snowflake">❄</div>
+   <div class="snowflake">❄</div><div class="snowflake">❄</div><div class="snowflake">❄</div>
+ 
 </div>
 
   <section id="aa-promo">
@@ -105,7 +31,7 @@
               <div class="col-md-5 no-padding">     
               <div class="aa-promo-left">                     
                   <div class="aa-promo-banner">                    
-                    <img src="https://bucket.nhanh.vn/store2/78018/bn/sb_1605414793_909.png" alt="dâu tây Đà Lạt">                    
+                    <img src="https://bucket.nhanh.vn/store2/78018/bn/sb_1605414793_909.png" alt="Hot trending">                    
                     <div class="aa-prom-content">                     
                       <h4>Hot trending</h4>                      
                     </div>
@@ -116,7 +42,7 @@
                <div class="col-md-7 no-padding">              
                   <div class="aa-promo-right">
                     <div class="aa-promo-banner">                      
-                      <img src="https://theme.hstatic.net/1000341789/1000533258/14/nu_slideshow_2.jpg?v=655" alt="hạt tiêu daklak">                      
+                      <img src="https://theme.hstatic.net/1000341789/1000533258/14/nu_slideshow_2.jpg?v=655" alt="combo special">                      
                       <div class="aa-prom-content">                     
                         <h4>combo special</h4>                        
                       </div>
@@ -127,7 +53,7 @@
          	    <div class="col-md-7 no-padding">              
                   <div class="aa-promo-right">
                     <div class="aa-promo-banner">                      
-                      <img src="https://theme.hstatic.net/1000341789/1000533258/14/slideshow_4.jpg?v=655" alt="hạt tiêu daklak">                      
+                      <img src="https://theme.hstatic.net/1000341789/1000533258/14/slideshow_4.jpg?v=655" alt="best choice">                      
                       <div class="aa-prom-content">                      
                         <h4>best choice</h4>                        
                       </div>
@@ -139,7 +65,7 @@
          	 <div class="col-md-5 no-padding">     
               <div class="aa-promo-left">                     
                   <div class="aa-promo-banner">                    
-                    <img src="https://cdn3.yame.vn/pimg/bltx-u-y2010-h57-0018921/ecfe3bc4-f27f-1e00-4ce0-001770b453f9.jpg?w=800" alt="dâu tây Đà Lạt">                    
+                    <img src="https://cdn3.yame.vn/pimg/bltx-u-y2010-h57-0018921/ecfe3bc4-f27f-1e00-4ce0-001770b453f9.jpg?w=800" alt="fashion">                    
                     <div class="aa-prom-content">
                       <h4>fashion</h4>                      
                     </div>
@@ -160,7 +86,7 @@
               <div class="col-md-5 no-padding">                
                 <div class="aa-promo-left">
                   <div class="aa-promo-banner">                    
-                    <img src="${url}/images/section_tc.jpg" alt="dâu tây Đà Lạt">                    
+                    <img src="${url}/images/section_tc.jpg" alt="best things">                    
                     <div class="aa-prom-content">
                       <span>Giảm giá 35%</span>
                       <h4>best things</h4>                      
@@ -173,7 +99,7 @@
                 <div class="aa-promo-right">
                   
                     <div class="aa-promo-banner">                      
-                      <img src="https://bucket.nhanh.vn/store2/78018/bn/sb_1605812381_695.jpg" alt="hạt tiêu daklak">                      
+                      <img src="https://bucket.nhanh.vn/store2/78018/bn/sb_1605812381_695.jpg" alt="blaze top">                      
                       <div class="aa-prom-content">
                         <span>Sản Phẩm độc quyền</span>
                         <h4>blaze top</h4>                        
@@ -199,15 +125,15 @@
               <div class="aa-product-inner">
                 <!-- start prduct navigation -->
                  <ul class="nav nav-tabs aa-products-tab">
-                    <li class="active"><a href="#raucu" data-toggle="tab">Mẫu áo</a></li>
-                    <li><a href="#hat" data-toggle="tab">Mẫu quần</a></li>
-                    <li><a href="#traicay" data-toggle="tab">Giày dép</a></li>
-                    <li><a href="#matong" data-toggle="tab">Phụ kiện</a></li>
+                    <li class="active"><a href="#ao" data-toggle="tab">Mẫu áo</a></li>
+                    <li><a href="#quan" data-toggle="tab">Mẫu quần</a></li>
+                    <li><a href="#giaydep" data-toggle="tab">Giày dép</a></li>
+                    <li><a href="#phukien" data-toggle="tab">Phụ kiện</a></li>
                   </ul>
                   <!-- Tab panes -->
                   <div class="tab-content">
                     <!-- Start men product category -->
-                    <div class="tab-pane fade in active" id="raucu">
+                    <div class="tab-pane fade in active" id="ao">
                       <ul class="aa-product-catg">
                         <!-- start single product item -->
                          <c:forEach items="${product_ao}" var="product" end="7">
@@ -247,7 +173,7 @@
                     </div>
                     <!-- / men product category -->
                     <!-- start women product category -->
-                    <div class="tab-pane fade" id="hat">
+                    <div class="tab-pane fade" id="quan">
                        <ul class="aa-product-catg">
                         <!-- start single product item -->
                          <c:forEach items="${product_quan}" var="product" end="7">
@@ -286,7 +212,7 @@
                     </div>
                     <!-- / women product category -->
                     <!-- start sports product category -->
-                    <div class="tab-pane fade" id="traicay">
+                    <div class="tab-pane fade" id="giaydep">
                       <ul class="aa-product-catg">
                         <!-- start single product item -->
                          <c:forEach items="${product_giaydep}" var="product" end="7">
@@ -325,7 +251,7 @@
                     </div>
                     <!-- / sports product category -->
                     <!-- start electronic product category -->
-                    <div class="tab-pane fade" id="matong">
+                    <div class="tab-pane fade" id="phukien">
                        <ul class="aa-product-catg">
                         <!-- start single product item -->
                          <c:forEach items="${product_phukien}" var="product" end="7">
@@ -596,39 +522,7 @@
   </section>
   <!-- / Testimonial -->
 
-  <!-- Latest Blog -->
-  <section id="aa-latest-blog">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="aa-latest-blog-area">
-            <h2>TIN TỨC</h2>
-            <div class="row">
-              <!-- single latest blog -->
-              <c:forEach items="${boardnewlist}" var="boardnew" end="2">
-              <div class="col-md-4 col-sm-4">
-                <div class="aa-latest-blog-single">
-                  <figure class="aa-blog-img">                    
-                    <a href="${pageContext.request.contextPath}/view/client/news-list-detail?id=${boardnew.id}"><img src="${pageContext.request.contextPath}/view/client/assets/images/news/${boardnew.image_link}" alt="Tin tức ${boardnew.title}"></a>  
-                      <figcaption class="aa-blog-img-caption">
-                      <span href="#"><i class="fa fa-clock-o"></i>${boardnew.created}</span>
-                    </figcaption>                          
-                  </figure>
-                  <div class="aa-blog-info">
-                    <h3 class="aa-blog-title"><a href="${pageContext.request.contextPath}/view/client/news-list-detail?id=${boardnew.id}">${boardnew.title}</a></h3>
-                    <p class="desc-boardnews">${boardnew.content}</p> 
-                    <a href="${pageContext.request.contextPath}/view/client/news-list-detail?id=${boardnew.id}" class="aa-read-mor-btn">Xem thêm<span class="fa fa-long-arrow-right"></span></a>
-                  </div>
-                </div>
-              </div>
-              </c:forEach>
-            </div>
-          </div>
-        </div>    
-      </div>
-    </div>
-  </section>
-  <!-- / Latest Blog -->
+  
 
   <!-- Client Brand -->
 

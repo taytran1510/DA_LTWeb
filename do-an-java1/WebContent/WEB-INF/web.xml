@@ -179,4 +179,113 @@
 		<url-pattern>/view/client/cart-delete</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+       <servlet-name>AdminHomePage</servlet-name>
+       <servlet-class>shop.controller.admin.AdminHomePage</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+       <servlet-name>AdminHomePage</servlet-name>
+       <url-pattern>/admin/homepage</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+       <servlet-name>AdminLogout</servlet-name>
+       <servlet-class>shop.controller.admin.AdminLogout</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+       <servlet-name>AdminLogout</servlet-name>
+       <url-pattern>/admin/logout</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+       <servlet-name>AdminLogin</servlet-name>
+       <servlet-class>shop.controller.admin.AdminLoginController</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+       <servlet-name>AdminLogin</servlet-name>
+       <url-pattern>/admin/login</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+       <servlet-name>listAdmin</servlet-name>
+       <servlet-class>shop.controller.admin.AdminListController</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+       <servlet-name>listAdmin</servlet-name>
+       <url-pattern>/admin/admin/list</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+       <servlet-name>listUser</servlet-name>
+       <servlet-class>shop.controller.admin.UserListController</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+       <servlet-name>listUser</servlet-name>
+       <url-pattern>/admin/user/list</url-pattern>
+   </servlet-mapping>
+	
+	<servlet>
+       <servlet-name>listProduct</servlet-name>
+       <servlet-class>shop.controller.admin.ProductListController</servlet-class>
+   </servlet>
+   
+    <servlet-mapping>
+       <servlet-name>listProduct</servlet-name>
+       <url-pattern>/admin/product/list</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+       <servlet-name>listOrder</servlet-name>
+       <servlet-class>shop.controller.admin.OrderListController</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+       <servlet-name>listOrder</servlet-name>
+       <url-pattern>/admin/order/list</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+       <servlet-name>listReview</servlet-name>
+       <servlet-class>shop.controller.admin.ReviewListController</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+       <servlet-name>listReview</servlet-name>
+       <url-pattern>/admin/review/list</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+       <servlet-name>editProduct</servlet-name>
+       <servlet-class>shop.controller.admin.ProductEditController</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+       <servlet-name>editProduct</servlet-name>
+       <url-pattern>/admin/product/edit</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+       <servlet-name>deleteProduct</servlet-name>
+       <servlet-class>shop.controller.admin.ProductDeleteController</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+       <servlet-name>deleteProduct</servlet-name>
+       <url-pattern>/admin/product/delete</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+       <servlet-name>addProduct</servlet-name>
+       <servlet-class>shop.controller.admin.ProductAddController</servlet-class>
+   </servlet>
+   
+    <servlet-mapping>
+       <servlet-name>addProduct</servlet-name>
+       <url-pattern>/admin/product/add</url-pattern>
+   </servlet-mapping>
 </web-app>

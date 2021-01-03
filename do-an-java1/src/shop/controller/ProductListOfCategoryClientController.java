@@ -20,9 +20,6 @@ import shop.service.impl.ProductServiceImpl;
 
 public class ProductListOfCategoryClientController extends HttpServlet {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	CategoryService cateService = new CategoryServicesImpl();
 	ProductService productService = new ProductServiceImpl();
@@ -36,7 +33,7 @@ public class ProductListOfCategoryClientController extends HttpServlet {
 		String id = req.getParameter("id");
 		List<Product> productList = productService.getProductById(Integer.parseInt(id));
 		req.setAttribute("productlist", productList);		
-		//Giá giảm
+		//giam gia
 		List<Product> productsList1 = new ArrayList<Product>();
 		for(Product product: productList)
 		{
@@ -48,7 +45,7 @@ public class ProductListOfCategoryClientController extends HttpServlet {
 
 		req.setAttribute("productlist1", productsList1);
 		
-		// Product bán chạy
+		//ban chay
 		List<Product> product_banchay= productService.getProductById(6);
 		req.setAttribute("product_banchay", product_banchay);	
 		

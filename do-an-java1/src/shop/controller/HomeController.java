@@ -9,11 +9,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 
-//import shop.webmvc.model.Boardnew;
+
 import shop.model.Product;
-//import shop.webmvc.service.BoardnewService;
 import shop.service.ProductService;
-//import shop.webmvc.service.impl.BoardnewServicesImpl;
 import shop.service.impl.ProductServiceImpl;
 import javax.servlet.http.HttpServletResponse;
 
@@ -22,39 +20,36 @@ import javax.servlet.http.HttpServletResponse;
 public class HomeController extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 	ProductService productService = new ProductServiceImpl();
-	//BoardnewService boardnewService = new BoardnewServicesImpl();
 	DecimalFormat df = new DecimalFormat("#.000");
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		//List<Boardnew> boardnewList = boardnewService.getAll();
-		//req.setAttribute("boardnewlist", boardnewList);
-		// Product Rau cá»§ quáº£
+		// Product ao
 		List<Product> product_ao= productService.getProductById(1);
 		req.setAttribute("product_ao", product_ao);	
 		
-		// Product hạt
+		// Product quan
 		List<Product> product_quan= productService.getProductById(2);
 		req.setAttribute("product_quan", product_quan);	
 		
-		// Product trÃ¡i cÃ¢y
+		// Product giay dep
 		List<Product> product_giaydep= productService.getProductById(3);
 		req.setAttribute("product_giaydep", product_giaydep);	
 		
-		// Product máº­t ong
+		// Product phu kien
 		List<Product> product_phukien= productService.getProductById(4);
 		req.setAttribute("product_phukien", product_phukien);	
 		
-		// Product má»›i
+		// Product moi
 		List<Product> product_new= productService.getProductById(5);
 		req.setAttribute("product_new", product_new);	
 				
-		// Product bÃ¡n cháº¡y
+		// Product ban chay
 		List<Product> product_banchay= productService.getProductById(6);
 		req.setAttribute("product_banchay", product_banchay);	
 		
 		List<Product> productList = productService.getAll();
 		req.setAttribute("productlist", productList);	
-		//GiÃ¡ giáº£m
+		//giam gia
 		List<Product> productsList1 = new ArrayList<Product>();
 		for(Product product: productList)
 		{
