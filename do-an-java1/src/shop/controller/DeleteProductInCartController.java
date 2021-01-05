@@ -38,6 +38,8 @@ public class DeleteProductInCartController extends HttpServlet{
 				break;
 			}
 		}
+		session.removeAttribute("order"); //remove session
+		session.removeAttribute("length_order"); //remove session
 		order.setItems(listItems);
 		session.setAttribute("order", order);
 		resp.sendRedirect(req.getContextPath() + "/view/client/cart");

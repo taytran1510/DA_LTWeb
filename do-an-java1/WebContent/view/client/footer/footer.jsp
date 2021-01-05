@@ -13,7 +13,8 @@
             <div class="row">
               <div class="col-md-4 col-sm-6">
                 <div class="aa-footer-widget">
-                  <a href="${pageContext.request.contextPath}/"><img src="${url}/images/logo_footer.png" alt="logo img" width="185px"></a> 
+                </br>
+                  <a href="${pageContext.request.contextPath}/"><img src="${url}/images/logo1.png" alt="logo img" width="330px"></a> 
                   <ul class="aa-footer-nav">
 					</br>
                     <li><p style="color:#888; text-align: justify; width: 95%">Là nơi chuyên buôn bán tất cả các mặt hàng quần áo chất lượng. Chúng tôi luôn đặt tiêu chí về chất lượng và uy tín lên hàng đầu.</p></li>
@@ -31,7 +32,7 @@
               <div class="col-md-4 col-sm-6">
                 <div class="aa-footer-widget">
                   <div class="aa-footer-widget">
-                    <h3>LIÊN HỆ</h3>
+                    <h3>THÔNG TIN LIÊN HỆ</h3>
                     <address>
                       <p>Trường ĐH Sư Phạm Kỹ Thuật - Q.Thủ Đức - TP HCM</p>
                       <p><span class="fa fa-phone"></span>0966.959.148</p>

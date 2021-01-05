@@ -50,6 +50,7 @@
                   <c:if test="${length_order != NULL}">
                   	<span class="aa-cart-notify">$</span>
                   </c:if>
+                  
 
                 </a>
                 <div class="aa-cartbox-summary">

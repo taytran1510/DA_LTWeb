@@ -125,7 +125,7 @@
                       </li>
                       </c:forEach>
                    </ul>
-                   <h4>Thêm đánh giá</h4>
+                   <h4></h4>
                   
                    <!-- review form -->
                    <form action="${pageContext.request.contextPath}/view/client/review?id=${detail_product.id}" method="post" class="aa-review-form">

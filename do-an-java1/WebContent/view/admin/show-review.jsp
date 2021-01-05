@@ -14,7 +14,7 @@
                   <table class="table table-striped">
                     <thead>
                       <tr>
-                        <th scope="col">Stt</th>
+                        
                         <th scope="col">Tên</th>
                         <th scope="col">Email</th>
                         <th scope="col">Id Sản Phẩm</th>
@@ -26,7 +26,7 @@
                     <tbody>
                   <c:forEach items="${reviewlist}" var="review">
                       <tr>
-                        <td scope="row">${review.id}</td>
+                        
                         <td>${review.name}</td>
         				<td>${review.email}</td>
         				<td>${review.product_id}</td>

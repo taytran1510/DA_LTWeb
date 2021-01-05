@@ -23,7 +23,7 @@
           <div class="col-lg-12"> 
             <div class="card"> 
               <div class="card-body"> 
-                <h5 class="card-title">Danh sách Admin</h5> 
+                <h5 class="card-title">Thông Tin Admin</h5> 
                 <div class="table-responsive">              
                   <table class="table table-striped"> 
                     <thead> 
@@ -40,6 +40,9 @@
                         <td scope="row">${admin.id}</td> 
                         <td>${admin.username}</td> 
         				<td>${admin.name}</td> 
+        				<td>
+                          <button class="btn btn-success"><a href="${pageContext.request.contextPath}/admin/admin/edit?id=${admin.id}">Sửa</a></button>
+                        </td>
                      </tr> 
                     </c:forEach> 
                     </tbody> 

@@ -42,7 +42,7 @@ public class AdminLoginController extends HttpServlet {
 			response.sendRedirect(request.getContextPath() + "/admin/homepage"); 
 		}
 		else {
-            request.setAttribute("errorMessage", "Tài khoản đăng nhập hoặc mật khẩu sai !!!");
+            request.setAttribute("errorMessage", "Thông tin đăng nhập sai !!!");
             RequestDispatcher rd = request.getRequestDispatcher("/view/admin/login.jsp");
             rd.forward(request, response);     
 		}

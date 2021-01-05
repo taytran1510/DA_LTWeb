@@ -29,47 +29,55 @@
   <section id="aa-promo">
           <div class="aa-promo-area">      
               <div class="col-md-5 no-padding">     
-              <div class="aa-promo-left">                     
+              <div class="aa-promo-left">    
+               <a href="${pageContext.request.contextPath}/view/client/product-detail?id=${41}">                 
                   <div class="aa-promo-banner">                    
                     <img src="https://bucket.nhanh.vn/store2/78018/bn/sb_1605414793_909.png" alt="Hot trending">                    
                     <div class="aa-prom-content">                     
                       <h4>Hot trending</h4>                      
                     </div>
                   </div>  
+               </a>
                   </div> 
               </div> 
               
                <div class="col-md-7 no-padding">              
                   <div class="aa-promo-right">
+                   <a href="${pageContext.request.contextPath}/view/client/product-detail?id=${39}">  
                     <div class="aa-promo-banner">                      
                       <img src="https://theme.hstatic.net/1000341789/1000533258/14/nu_slideshow_2.jpg?v=655" alt="combo special">                      
                       <div class="aa-prom-content">                     
                         <h4>combo special</h4>                        
                       </div>
-                    </div>                                   
+                    </div>  
+                   </a>                                 
                   </div>                        
          	    </div>  
          	    
          	    <div class="col-md-7 no-padding">              
                   <div class="aa-promo-right">
+                   <a href="${pageContext.request.contextPath}/view/client/product-detail?id=${33}">  
                     <div class="aa-promo-banner">                      
                       <img src="https://theme.hstatic.net/1000341789/1000533258/14/slideshow_4.jpg?v=655" alt="best choice">                      
                       <div class="aa-prom-content">                      
                         <h4>best choice</h4>                        
                       </div>
                     </div>
+                   </a>
                   </div>
                              
          	  </div>  
          	  
          	 <div class="col-md-5 no-padding">     
-              <div class="aa-promo-left">                     
+              <div class="aa-promo-left">    
+               <a href="${pageContext.request.contextPath}/view/client/product-detail?id=${3}">                   
                   <div class="aa-promo-banner">                    
                     <img src="https://cdn3.yame.vn/pimg/bltx-u-y2010-h57-0018921/ecfe3bc4-f27f-1e00-4ce0-001770b453f9.jpg?w=800" alt="fashion">                    
                     <div class="aa-prom-content">
                       <h4>fashion</h4>                      
                     </div>
-                  </div>  
+                  </div> 
+               </a> 
                </div> 
               </div> 
                        	  
@@ -85,6 +93,7 @@
               <!-- promo left -->
               <div class="col-md-5 no-padding">                
                 <div class="aa-promo-left">
+                 <a href="${pageContext.request.contextPath}/view/client/product-detail?id=${34}">  
                   <div class="aa-promo-banner">                    
                     <img src="${url}/images/section_tc.jpg" alt="best things">                    
                     <div class="aa-prom-content">
@@ -92,12 +101,13 @@
                       <h4>best things</h4>                      
                     </div>
                   </div>
+                 </a>
                 </div>
               </div>
               <!-- promo right -->
               <div class="col-md-7 no-padding">
                 <div class="aa-promo-right">
-                  
+                   <a href="${pageContext.request.contextPath}/view/client/product-detail?id=${32}">  
                     <div class="aa-promo-banner">                      
                       <img src="https://bucket.nhanh.vn/store2/78018/bn/sb_1605812381_695.jpg" alt="blaze top">                      
                       <div class="aa-prom-content">
@@ -105,7 +115,7 @@
                         <h4>blaze top</h4>                        
                       </div>
                     </div>                 
-                  
+                  </a>
                 </div>
               </div>
             </div>

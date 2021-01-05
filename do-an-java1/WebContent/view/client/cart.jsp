@@ -8,7 +8,7 @@
 <!--  content -->
 <!-- catg header banner section -->
   <section id="aa-catg-head-banner">
-   <img src="${pageContext.request.contextPath}/view/client/assets/images/banner-cart.png" alt="banner giỏ hàng">
+   <img src="${pageContext.request.contextPath}/view/client/assets/images/banner-product2.png" alt="banner giỏ hàng">
    <div class="aa-catg-head-banner-area">
      <div class="container">
       <div class="aa-catg-head-banner-content">
@@ -35,20 +35,20 @@
                   <table class="table">
                     <thead>
                       <tr>
-                        <th>Bỏ chọn</th>
+                      	<th></th>
                         <th>Mô tả</th>
                         <th>Sản phẩm</th>
                         <th>Giá</th>
                         <th>Số lượng</th>
                         <th>Giảm giá</th>
                         <th>Thành Tiền</th>
+                        
                       </tr>
                     </thead>
                     <tbody>
                       <c:forEach items="${order.items}" var="item">
-                      <tr>
-                        <td><a class="remove" href="${pageContext.request.contextPath}/view/client/cart-delete?id=${item.product.id}"><fa class="fa fa-close"></fa></a></td>  
-                                           
+                      <tr>          
+                      	 <td><a class="remove" href="${pageContext.request.contextPath}/view/client/cart-delete?id=${item.product.id}"><fa class="fa fa-close"></fa></a></td>            
                         <td><a href="${pageContext.request.contextPath}/view/client/product-detail?id=${item.product.id}"><img src="${pageContext.request.contextPath}/view/client/assets/images/products/img-test/${item.product.image_link}" alt="img${item.product.name }"></a></td>
                         <td><a class="aa-cart-title" href="${pageContext.request.contextPath}/view/client/product-detail?id=${item.product.id}">${item.product.name }</a></td>
                         <td>${item.product.price} VNĐ</td>

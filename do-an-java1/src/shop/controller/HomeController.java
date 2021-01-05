@@ -49,7 +49,7 @@ public class HomeController extends HttpServlet{
 		
 		List<Product> productList = productService.getAll();
 		req.setAttribute("productlist", productList);	
-		//giam gia
+		//gia giam
 		List<Product> productsList1 = new ArrayList<Product>();
 		for(Product product: productList)
 		{
@@ -61,7 +61,7 @@ public class HomeController extends HttpServlet{
 
 		req.setAttribute("productlist1", productsList1);
 		
-		// Product giáº£m giÃ¡
+		// Product giam gia
 		List<Product> product_sale= productService.getProductById(7);
 		req.setAttribute("product_sale", product_sale);	
 		

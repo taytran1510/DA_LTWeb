@@ -28,7 +28,7 @@
         </li>
         <li>
           <a href="${pageContext.request.contextPath}/admin/product/list">
-            <i class="zmdi zmdi-widgets"></i> <span>Danh Sách Sản Phẩm</span>
+            <i class="zmdi zmdi-widgets"></i> <span>Quản lí Sản Phẩm</span>
           </a>
         </li>
         <li>
@@ -44,7 +44,7 @@
         
         <li>
           <a href="${pageContext.request.contextPath}/admin/review/list">
-            <i class="zmdi zmdi-calendar-check"></i> <span>Review</span>
+            <i class="zmdi zmdi-calendar-check"></i> <span>Quản lí Review</span>
           </a>   
         </li>
       </ul>

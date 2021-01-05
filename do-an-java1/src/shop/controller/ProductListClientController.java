@@ -28,7 +28,7 @@ public class ProductListClientController extends HttpServlet {
 	DecimalFormat df = new DecimalFormat("#.000");
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//		String id = req.getParameter("id");
+		String id = req.getParameter("id");
 		List<Catalog> cateList = cateService.getAll();
 		req.setAttribute("catelist", cateList);
 		List<Product> productList = productService.getAll();

@@ -308,4 +308,14 @@
        <servlet-name>listOrderdetail</servlet-name>
        <url-pattern>/admin/order/list-detail</url-pattern>
    </servlet-mapping>
+   
+   <servlet>
+       <servlet-name>editAdmin</servlet-name>
+       <servlet-class>shop.controller.admin.AdminEditController</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+       <servlet-name>editAdmin</servlet-name>
+       <url-pattern>/admin/admin/edit</url-pattern>
+   </servlet-mapping>
 </web-app>
